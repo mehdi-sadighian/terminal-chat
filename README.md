@@ -21,14 +21,14 @@ g++ chatclient.cpp -lpthread -o chatclient
 # Usage:
 
 on server side:
-./chatserver <port>
+./chatserver port
 
 example:
 ./chatserver 2017
 
 
 on client side:
-./chatclient <host name> <port>
+./chatclient server_ip server_port
 
 example:
 ./chatclient 192.168.10.1 2017
