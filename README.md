@@ -5,7 +5,8 @@ this chat server is written on UNIX environment (FREEBSD 10.3). its an expriment
 message simultaneously on a single socket with threads.
 
 
-Compilation:
+# Compilation:
+
 
 on server side:
 g++ chatserver.cpp -lpthread -o chatserver
@@ -14,7 +15,7 @@ on client side:
 g++ chatclient.cpp -lpthread -o chatclient
 
 
-Usage:
+# Usage:
 
 on server side:
 ./chatserver <port>
@@ -30,7 +31,7 @@ example:
 ./chatclient 192.168.10.1 2017
 
 
-License
+# License
 
 This software is released with no warranties and is under public domain.
 
