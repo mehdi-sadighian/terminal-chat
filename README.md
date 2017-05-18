@@ -28,9 +28,11 @@ example:
 
 
 on client side:
+
 ./chatclient server_ip server_port
 
 example:
+
 ./chatclient 192.168.10.1 2017
 
 
